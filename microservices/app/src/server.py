@@ -1,7 +1,6 @@
 from src import app
 from flask import jsonify
 
-
 @app.route("/")
 def home():
     return "Hasura Hello World deploy by webhook" 
