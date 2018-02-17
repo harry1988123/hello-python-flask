@@ -4,7 +4,7 @@ from flask import jsonify
 
 @app.route("/")
 def home():
-    return "Hasura Hello World"
+    return "Hasura Hello World deploy by webhook" 
 
 # Uncomment to add a new URL at /new
 
